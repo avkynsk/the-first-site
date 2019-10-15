@@ -49,6 +49,7 @@ ul, li {
     overflow: hidden;
 }
 
+
 .wrapper {
     margin: 0 auto;
     width: 90%;
@@ -73,6 +74,11 @@ img {
     max-width:100%;
     height:auto;
     border: none;
+    transition: 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.05);
 }
 
 .copy {
@@ -86,8 +92,10 @@ img {
 .card {
     display: inline-block;
     width: 220px;
-    text-align: center;    
+    text-align: center;
+    padding-top: 1%;
 }
+
 
 .center {
     display: block;
